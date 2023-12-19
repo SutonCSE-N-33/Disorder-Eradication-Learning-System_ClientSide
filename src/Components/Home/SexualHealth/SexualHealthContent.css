@@ -1,0 +1,50 @@
+.sx_ed.scroll{
+    height: 515px;
+    padding: 0 20px;
+  }
+  
+  .sx_ed .accordion-button{
+    box-shadow:inset 0px 1px 0px 0px #0092a8;
+      background:linear-gradient(to bottom, #0d3d45 5%, #026a7a 100%);
+      background-color:#0d3d45;
+      /* border-radius:3px; */
+      border:1px solid #0f5f6b;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      /* padding:6px 24px; */
+      text-decoration:none;
+      text-shadow:0px 1px 0px #057485;
+  }
+  
+  .sx_ed .accordion-button:hover {
+      background:linear-gradient(to bottom, #026a7a 5%, #0d3d45 100%);
+      background-color:#026a7a;
+  }
+  
+  .sx_ed .accordion-button:active {
+      position:relative;
+      top:1px;
+  }
+  
+  .sx_ed .accordion-item{
+    background: transparent;
+    border: 1px solid #034c58;
+    margin: 10px 0;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+  }
+  
+  .sx_ed .accordion-item .accordion-body{
+    background: #282c34 !important;
+    color: #fff;
+  
+    box-shadow: 3px -3px 5px 1px rgb(0 0 0 / 50%) inset;
+    -webkit-box-shadow: 3px -3px 5px 1px rgb(0 0 0 / 50%) inset;
+    -moz-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+  }
+  
+  /* //Sex Education CSS End */

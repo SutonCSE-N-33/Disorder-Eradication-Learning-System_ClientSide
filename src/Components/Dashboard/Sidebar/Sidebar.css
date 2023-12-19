@@ -1,0 +1,58 @@
+.db-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #003140;
+    border-right: 1px solid black;
+  }
+  
+ .db-sidebar a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+.db-sidebar ul {
+    padding-top: 71px;
+  }
+  
+ .db-sidebar ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+.db-sidebar ul li:last-child a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+.db-sidebar a:hover {
+    padding-left: 40px;
+  }
+  
+.db-sidebar .iconBtn {
+    font-size: 25px;
+    color: #c5a752;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+  }
+  
+.db-sidebar #open {
+    padding-left: 33px;
+  }
+  
+.db-sidebar #cancel {
+    right: 15px;
+  }
+  

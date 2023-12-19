@@ -1,0 +1,113 @@
+.descriptionBox .badge {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .descriptionBox .subscribe {
+    /*background: #a90618;
+    */
+    box-shadow: inset 0px 1px 0px 0px #b3515c;
+    background: linear-gradient(to bottom, #c7061d 5%, #800715 100%);
+    background-color: #c7061d;
+    border: 1px solid #a90619;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    /*font-size:13px;
+    */
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5e020d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .descriptionBox .subscribe:hover {
+    background: linear-gradient(to bottom, #800715 5%, #c7061d 100%);
+    background-color: #800715;
+  }
+  
+  .descriptionBox .subscribe:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .descriptionBox .bg-ldl {
+    background: #555;
+  }
+  
+  .descriptionBox h3 {
+    font-size: 25px;
+  }
+  
+  .descriptionBox h6 {
+    font-size: 14px;
+    margin: 5px 0 10px;
+  }
+  
+  .descriptionBox h6 span {
+    color: var(--light-yellow);
+    cursor: pointer;
+  }
+  
+  .descriptionBox p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #999;
+    text-align: justify;
+  }
+  
+  .commentBox {
+    margin: 0 0 20px;
+  }
+  
+  .commentBox .card {
+    background: #282c34;
+    border: 1px solid #999;
+  }
+  
+  .commentBox .card h5.card-header {
+    border-bottom: 1px solid #999;
+    color: #fff;
+  }
+  
+  .commentBox .card h5.card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .commentBox .card h5.card-header span {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .commentBox .card .card-body p {
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .commentBox .card .card-body span {
+    margin-right: 5px;
+  }
+  
+  .commentBox .card .card-body .bgBadge {
+    background: var(--comment-blue);
+    cursor: pointer;
+  }
+  
+  .commentBox .card .card-body .ldlicon {
+    color: #999;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  

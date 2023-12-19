@@ -1,0 +1,31 @@
+.utilitiesMenu {
+    -webkit-border-radius: 5px;
+    background: #282c34;
+    -webkit-box-shadow: 5px 5px 24px #101215, -5px -5px 24px #404653;
+    box-shadow: 5px 5px 24px #101215, -5px -5px 24px #404653;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .utilitiesMenu ul li a {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    background: #282c34;
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  
+  .utilitiesMenu ul li a.active {
+    color: #7ae9df;
+  }
+  
+  .utilitiesMenu ul li a:hover {
+    color: #7ae9df;
+  }

@@ -1,0 +1,61 @@
+.quizBox .card {
+    background: #282c34;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+  }
+  
+  .quizBox .card .card-header {
+    border-bottom: 1px solid #999;
+    /* color: #fff; */
+    color: #c5a752;
+    position: relative;
+    padding-right: 85px;
+  }
+  
+  #quizSubmit {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    /*background: var(--extra-color);
+      */
+    /* color: var(--light-yellow); */
+    cursor: pointer;
+    box-shadow: inset 0px 1px 0px 0px #418994;
+    background: linear-gradient(to bottom, #217885 5%, #085561 100%);
+    background-color: #217885;
+    border: 1px solid #09444d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #033e47;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  #quizSubmit:hover {
+    background: linear-gradient(to bottom, #085561 5%, #217885 100%);
+    background-color: #085561;
+  }
+  
+  #quizSubmit:active {
+    position: absolute;
+    top: 7px;
+  }
+  
+  .quizBox .card .card-body .form-check-input {
+    outline: none !important;
+    border: 1px solid #999;
+    box-shadow: none !important;
+    background-color: #353a44;
+  }
+  
+  .quizBox .card .card-body .form-check-input:checked {
+    background-color: #1b7b8b;
+    border-color: #1b7b8b;
+  }

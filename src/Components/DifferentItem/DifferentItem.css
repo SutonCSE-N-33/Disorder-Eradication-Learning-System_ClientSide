@@ -1,0 +1,90 @@
+#frontBox {
+    width: 100%;
+  }
+  
+  .watchBox{
+    width: 95%;
+    height: 550px;
+    background: #282c34;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #282c34;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .video-container {
+    width: 100%;
+    height: 510px;
+    position: relative;
+  }
+  
+  .video-container .videoStream {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .video-container .videoStream:focus {
+    outline: none;
+  }
+  .otherUtilities {
+    height: 100%;
+  }
+
+  .utilitiesList {
+    width: 100%;
+    height: 443px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #282c34;
+    box-shadow: inset 8.41px 8.41px 9px #1f2228, inset -8.41px -8.41px 9px #313640;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  
+  .allUtilities {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .allUtilities::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .allUtilities::-webkit-scrollbar-track {
+    background: #404653;
+    -webkit-box-shadow: inset -5px -5px 10px 5px rgba(77, 77, 77, 0.5);
+    box-shadow: inset -5px -5px 10px 5px rgba(77, 77, 77, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .allUtilities::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 1px solid #666;
+    border-radius: 5px;
+  }
+  

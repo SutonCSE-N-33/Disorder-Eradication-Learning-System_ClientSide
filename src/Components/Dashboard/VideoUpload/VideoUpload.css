@@ -1,0 +1,169 @@
+.upload {
+    padding: 20px 0;
+    border-top: 1px solid #444;
+  }
+  
+  .upload .card {
+    margin: 0 25px;
+    background: #282c34;
+    border: 1px solid #444;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .upload .card img {
+    background: beige;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+  }
+  
+  .upload .card h4 {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .upload .card p {
+    color: #999;
+    font-size: 14px;
+    margin: 5px 0 10px;
+  }
+  
+  .upload input[type="file"] {
+    display: none;
+  }
+  
+  .upload .uploadBtn {
+    margin: 0 auto;
+    display: block;
+  
+    box-shadow: inset 0px 1px 0px 0px #468e99;
+    background: linear-gradient(to bottom, #1a707d 5%, #0e5a66 100%);
+    background-color: #1a707d;
+    border-radius: 3px;
+    border: 1px solid #074c57;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 4px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #09414a;
+  }
+  
+  .upload .uploadBtn:hover {
+    background: linear-gradient(to bottom, #0e5a66 5%, #1a707d 100%);
+    background-color: #0e5a66;
+  }
+  
+  .upload .uploadBtn:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .db-channel .upload .videoText{
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .db-channel .upload .videoText .textForm{
+    overflow-y: auto;
+    min-height: 100%;
+  }
+  
+  .db-channel .upload .videoText .textForm::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .db-channel .upload .videoText .textForm::-webkit-scrollbar-track {
+    background: #404653;
+    -webkit-box-shadow: inset -5px -5px 10px 5px rgba(77, 77, 77, 0.5);
+    box-shadow: inset -5px -5px 10px 5px rgba(77, 77, 77, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .db-channel .upload .videoText .textForm::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 1px solid #666;
+    border-radius: 5px;
+  }
+  
+  .db-channel .upload .videoText .textForm{
+    padding: 20px 50px 20px 30px;
+    background: transparent;
+  }
+  
+  .db-channel .upload .videoText label {
+    color: #fff;
+  }
+  
+  .db-channel .upload .videoText .form-control {
+    margin-bottom: 15px;
+  
+    box-shadow: none;
+    outline: 0;
+    background: #282c34;
+    border: 1px solid #444;
+    color: #fff;
+  
+    box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+  }
+  
+  .db-channel .upload .videoText .form-floating .form-control {
+    padding-top: 18px;
+    padding-bottom: 0;
+  }
+  
+  .db-channel .upload .videoText .form-select {
+    box-shadow: none;
+    outline: 0;
+    background: #282c34;
+    border: 1px solid #444;
+    color: #fff;
+  
+    box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+  }
+  
+  .db-channel .upload .videoText .btn{
+    box-shadow: inset 0px 1px 0px 0px #d6b96b;
+    background: linear-gradient(to bottom, #c5a652 5%, #99730b 100%);
+    background-color: #c5a652;
+    border: 1px solid #7d5d0c;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 4px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #6e530a;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  
+  .db-channel .upload .videoText .btn:hover {
+    background: linear-gradient(to bottom, #99730b 5%, #c5a652 100%);
+    background-color: #99730b;
+  }
+  
+  .db-channel .upload .videoText .btn:active {
+    position: relative;
+    margin-top: 1px;
+  }
+  

@@ -1,0 +1,46 @@
+.channel-menu {
+    padding: 20px 0 0;
+    border-bottom: 1px solid black;
+  }
+  
+.channel-menu ul li {
+    margin: 0 15px;
+  }
+  
+.channel-menu a {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+.channel-menu a:hover {
+    color: #c5a752;
+  }
+  
+.channel-menu .form-control {
+    box-shadow: none;
+    outline: 0;
+    background: #282c34;
+    border: 1px solid #444;
+    color: #fff;
+  
+    box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.5) inset;
+  }
+  
+  .channel-menu ul li span {
+    cursor: pointer;
+    background: #5d271c;
+    border-top: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+  }
+  
+ .channel-menu ul li img {
+    width: 25px;
+    height: 25px;
+  }
